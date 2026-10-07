@@ -13,12 +13,7 @@ Click **Deploy** above, or open <https://naijacloud.com/new?template=vite-react&
 - React 19, Vite 7 and TypeScript
 - Two routes with React Router, and a fallback to `index.html` so a refresh on any route works
 - Builds to `dist/`; Naijacloud detects Vite and serves `dist/` with nginx
-
-## Environment variables
-
-| Name | What it's for | Default |
-| --- | --- | --- |
-| `VITE_APP_TITLE` | Shown in the page title and header (read at build time) | `My app` |
+- No environment variables: the app name lives in `src/config.ts`
 
 ## Run it locally
 

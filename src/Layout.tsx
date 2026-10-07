@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from 'react-router';
 
-export const title = import.meta.env.VITE_APP_TITLE || 'My app';
+import { APP_TITLE as title } from './config';
 
 export default function Layout() {
   return (

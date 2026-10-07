@@ -1,7 +1,7 @@
 const facts = [
   ['Build', 'npm ci && npm run build writes the site to dist/'],
   ['Serve', 'nginx serves dist/ with a fallback to index.html'],
-  ['Config', 'VITE_APP_TITLE is read at build time'],
+  ['Config', 'The app name lives in src/config.ts'],
 ];
 
 export default function About() {
