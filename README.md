@@ -14,6 +14,7 @@ Click **Deploy** above, or open <https://naijacloud.com/new?template=vite-react&
 - Two routes with React Router, and a fallback to `index.html` so a refresh on any route works
 - Builds to `dist/`; Naijacloud detects Vite and serves `dist/` with nginx
 - No environment variables: the app name lives in `src/config.ts`
+- A Naijacloud welcome page (light and dark) with your next steps: connect your repo, add a domain, a database or storage. Replace `src/pages/Home.tsx` with your own app; the links back to Naijacloud live in `src/naijacloud.ts` and the footer in `src/Layout.tsx`
 
 ## Run it locally
 
